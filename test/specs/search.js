@@ -18,7 +18,7 @@ describe('Ebay Product Search', () => {
   });
 
   it('should redirect to a new page and verify the title', () => {
-    expect(browser).toHaveTitle('Laptop | eBay');
+    expect(browser).toHaveTitle('Laptop for sale | eBay');
   });
 
   it('should update the search category', () => {
